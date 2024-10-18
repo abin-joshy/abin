@@ -1,31 +1,11 @@
-'''print("hello world")
-if 5>2:
-    print("five is greater than two")
-    print("fve is greater than two")
-y='5'
-print(y,y)
-x=str(3)
-y=1j
-z=float(3)
-print(x)
-print(y,z)
-print(type(y))
-
-x,y='orange','pink'
-print(x)
-print(y)
-x="a"
-y="b"
-z="in"
-print(x+y+z)
-
-user=input("enter username:")
-print("usename is:" + user)
-
-a="hello"
-b="world"
-c=a+" "+b
-print(c)
-'''
-a="hello world"
-print(a[0:5])
+"""
+author:abin joshy
+date:18-10-2024
+description:program that asks the user to input their
+name and age. After receiving the input,
+display a message thar includes the user's name and age.
+hello,john!  you are 25 years old
+"""
+name=input("enter your name:")
+age=int(input("enter your age:"))
+print("Hello,",name+"!","You are",age,"years old.")
